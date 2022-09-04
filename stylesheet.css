@@ -1,9 +1,13 @@
 /* stylesheet */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,4 +24,39 @@ ul {
 
 
 
+/* typography */
 
+.hero {
+    color: #f9faf8;
+}
+
+.logo {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+
+/* layout */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+    margin-bottom: 100px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 15px;
+}
