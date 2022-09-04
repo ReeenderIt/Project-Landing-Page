@@ -114,12 +114,31 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
     margin-bottom: 100px;
+    padding: 10px 35rem;
+}
+
+.info-title {
+    margin-block: 50px;
 }
 
 .info-list {
     display: flex;
-    gap: 25px;
+    gap: 43px;
     justify-content: center;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-img {
+    width: 135px;
+    height: 135px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
