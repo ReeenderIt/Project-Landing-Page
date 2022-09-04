@@ -62,6 +62,18 @@ ul {
     color: #1F2937;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotee {
+    font-weight: 700;
+}
+
+
+
 
 /* layout */
 
@@ -140,9 +152,21 @@ header {
 }
 
 .info-img {
-    width: 135px;
-    height: 135px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 6rem 31.5rem;
+}
+
+.quotee {
+    display: flex;
+    justify-content: end;
 }
