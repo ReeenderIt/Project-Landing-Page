@@ -33,9 +33,22 @@ ul {
 .logo {
     color: inherit;
     font-size: 24px;
+}
+
+.header-title {
+    font-size: 48px;
     font-weight: 900;
 }
 
+.header-txt,
+.header-btn {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-btn {
+    font-weight: bold;
+}
 
 
 
@@ -52,11 +65,42 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 300px;
-    margin-bottom: 100px;
+    padding: 10px 400px;
 }
 
 .nav-link {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    padding: 10px 400px;
+    margin: 100px 0;
+    gap: 40px;
+
+}
+
+.header-title,
+.header-txt {
+    margin-bottom: 10px;
+}
+
+.header-btn {
+    padding: 3px 20px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 7px;
+}
+
+.header-img {
+    width: 800px;
+    height: 400px;
+    height: auto;
+    background-color: #6a6c70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
 }
