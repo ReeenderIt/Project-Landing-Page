@@ -80,6 +80,10 @@ footer {
     font-weight: 700;
 }
 
+.quotee {
+    text-align: end;
+}
+
 .sign-up-box,
 .sign-up-btn {
     color: #f9faf8;
@@ -183,11 +187,6 @@ header {
     display: flex;
     flex-direction: column;
     padding: 6rem 31.5rem;
-}
-
-.quotee {
-    display: flex;
-    justify-content: end;
 }
 
 .sign-up-section {
