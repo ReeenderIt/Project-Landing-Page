@@ -28,6 +28,7 @@ ul {
 
 .hero {
     color: #f9faf8;
+    background-color: #1F2937;
 }
 
 .logo {
@@ -54,6 +55,7 @@ ul {
 
 .header-btn {
     font-weight: bold;
+    background-color: #3882f6;
 }
 
 .info-title {
@@ -62,15 +64,28 @@ ul {
     color: #1F2937;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
 
-.quotee {
+.quotee,
+.sign-up-title {
     font-weight: 700;
 }
+
+.sign-up-box,
+.sign-up-btn {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+
 
 
 
@@ -78,7 +93,6 @@ ul {
 /* layout */
 
 .hero {
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
@@ -112,7 +126,6 @@ header {
 
 .header-btn {
     padding: 3px 20px;
-    background-color: #3882f6;
     border: none;
     border-radius: 7px;
 }
@@ -162,7 +175,6 @@ header {
 .quote-section {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
     padding: 6rem 31.5rem;
 }
 
@@ -170,3 +182,11 @@ header {
     display: flex;
     justify-content: end;
 }
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+}
+
