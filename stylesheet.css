@@ -26,7 +26,8 @@ ul {
 
 /* typography */
 
-.hero {
+.hero,
+footer {
     color: #f9faf8;
     background-color: #1F2937;
 }
@@ -89,7 +90,9 @@ ul {
     font-weight: 700;
 }
 
-
+.footer-txt{
+    text-align: center;
+}
 
 
 
@@ -211,4 +214,8 @@ header {
     padding: .3rem 1.5rem;
     border: 2px solid #f9faf8;
     border-radius: 7px;
+}
+
+.footer-txt {
+    margin: 2rem 0;
 }
