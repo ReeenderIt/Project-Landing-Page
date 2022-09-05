@@ -85,6 +85,10 @@ ul {
     background-color: #3882f6;
 }
 
+.sign-up-btn {
+    font-weight: 700;
+}
+
 
 
 
@@ -190,3 +194,21 @@ header {
     margin: 6rem 0;
 }
 
+.sign-up-box {
+    display: flex;
+    /* padding: 2rem 6rem; */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-txt {
+    margin: 2rem 6rem;
+}
+
+.sign-up-btn {
+    margin: 2rem 6rem;
+    padding: .3rem 1.5rem;
+    border: 2px solid #f9faf8;
+    border-radius: 7px;
+}
