@@ -110,7 +110,6 @@ footer {
 
 .nav-bar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     min-width: 57%; 
@@ -129,8 +128,9 @@ header {
     padding: 10px 25rem;
     margin: 100px 0;
     gap: 40px;
-
 }
+
+
 
 .header-title,
 .header-txt {
