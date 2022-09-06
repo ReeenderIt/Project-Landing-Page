@@ -112,8 +112,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 25rem;
+    min-width: 57%;
+    margin: auto;
 }
 
 .nav-link {
