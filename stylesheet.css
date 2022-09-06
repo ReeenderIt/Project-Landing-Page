@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -125,8 +126,6 @@ header {
     max-width: 57%;
     margin: 6.25rem auto;
 }
-
-
 
 .header-title,
 .header-txt {
