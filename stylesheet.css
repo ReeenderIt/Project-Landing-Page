@@ -39,15 +39,12 @@ footer {
     font-weight: 900;
 }
 
-.nav-link a {
-    color: inherit;
-}
-
 .header-title {
     font-size: 48px;
     font-weight: 900;
 }
 
+.nav-link a,
 .header-txt,
 .header-btn {
     font-size: 18px;
