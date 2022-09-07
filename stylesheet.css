@@ -190,18 +190,14 @@ header {
 .sign-up-box {
     display: flex;
     border-radius: 5px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 53%;
     margin: 6.25rem auto;
-}
-
-.sign-up-txt {
-    margin: 2rem 6rem;
+    padding: 2rem 6rem;
 }
 
 .sign-up-btn {
-    margin: 2rem 6rem;
     padding: .3rem 1.5rem;
     border: 2px solid #f9faf8;
     border-radius: 7px;
