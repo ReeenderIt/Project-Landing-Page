@@ -131,7 +131,7 @@ header {
 
 .header-title,
 .header-txt {
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .header-btn {
@@ -151,12 +151,12 @@ header {
 .info-section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     padding: 10px 35rem;
 }
 
 .info-title {
-    margin-block: 50px;
+    margin-block: 3.125rem;
 }
 
 .info-list {
@@ -177,7 +177,7 @@ header {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .quote-section {
