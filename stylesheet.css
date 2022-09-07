@@ -187,19 +187,13 @@ header {
     padding-block: 6.25rem;
 }
 
-.sign-up-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 6rem 0;
-}
-
 .sign-up-box {
     display: flex;
-    /* padding: 2rem 6rem; */
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    max-width: 53%;
+    margin: 6.25rem auto;
 }
 
 .sign-up-txt {
