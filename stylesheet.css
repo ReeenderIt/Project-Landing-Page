@@ -181,10 +181,10 @@ header {
     margin-bottom: .625rem;
 }
 
-.quote-section {
-    display: flex;
-    flex-direction: column;
-    padding: 6rem 31.5rem;
+.quote-box {
+    max-width: 46%;
+    margin: auto;
+    padding-block: 6.25rem;
 }
 
 .sign-up-section {
