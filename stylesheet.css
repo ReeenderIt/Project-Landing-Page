@@ -151,8 +151,9 @@ header {
 .info-section {
     display: flex;
     flex-direction: column;
+    max-width: 46%;
+    margin: auto;
     margin-bottom: 6.25rem;
-    padding: 10px 35rem;
 }
 
 .info-title {
