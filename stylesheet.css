@@ -27,7 +27,8 @@ ul {
 
 /* typography */
 
-.hero,
+nav,
+header,
 footer {
     color: #f9faf8;
     background-color: #1F2937;
@@ -105,16 +106,21 @@ footer {
 
 /* layout */
 
-.hero {
+/* header {
     display: flex;
     flex-direction: column;
+} */
+
+nav {
+    position: sticky;
+    top: 0;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 57%; 
+    max-width: 57%; 
     margin: auto;
     padding: 1em 0;
     position: sticky;
