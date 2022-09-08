@@ -27,14 +27,26 @@ ul {
 
 /* typography */
 
-nav,
-header,
+nav {
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+
+header {
+    background-image: url(photos/pexels-david-brown-12745264.jpg);
+    background-position: 0% 26%;
+    background-size: cover;
+}
+
+
+
 footer {
     color: #f9faf8;
     background-color: #1F2937;
 }
 
-.nav-bar {
+.nav-bar,
+.header-title {
     font-family: 'Noto Serif Georgian', serif;
 }
 
@@ -106,11 +118,6 @@ footer {
 
 /* layout */
 
-/* header {
-    display: flex;
-    flex-direction: column;
-} */
-
 nav {
     position: sticky;
     top: 0;
@@ -136,8 +143,12 @@ nav {
 .header-content {
     display: flex;
     max-width: 57%;
-    margin: 6.25rem auto;
+    margin: 15.25rem auto;
     gap: 63px;
+}
+
+.header-txt {
+    padding-right: 29em;
 }
 
 .header-title,
