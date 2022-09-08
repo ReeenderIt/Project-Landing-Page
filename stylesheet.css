@@ -133,7 +133,7 @@ nav {
     flex-wrap: wrap;
 }
 
-header {
+.header-content {
     display: flex;
     max-width: 57%;
     margin: 6.25rem auto;
@@ -141,7 +141,7 @@ header {
 }
 
 .header-title,
-.header-txt {
+.header-p {
     margin-bottom: .625rem;
 }
 
