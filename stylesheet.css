@@ -27,7 +27,8 @@ ul {
 
 /* typography */
 
-nav {
+nav,
+footer {
     color: #f9faf8;
     background-color: #1F2937;
 }
@@ -36,13 +37,6 @@ header {
     background-image: url(photos/pexels-david-brown-12745264.jpg);
     background-position: 0% 26%;
     background-size: cover;
-}
-
-
-
-footer {
-    color: #f9faf8;
-    background-color: #1F2937;
 }
 
 .nav-bar,
