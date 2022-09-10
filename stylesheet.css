@@ -171,8 +171,8 @@ nav {
 
 .info-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 43px;
-    justify-content: center;
 }
 
 .info-small {
