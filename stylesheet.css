@@ -163,14 +163,6 @@ nav {
     border-radius: 7px;
 }
 
-.header-img {
-    width: 1000px;
-    background-color: #6a6c70;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .info-section {
     display: flex;
     flex-direction: column;
