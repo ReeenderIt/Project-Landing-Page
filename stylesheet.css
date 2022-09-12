@@ -79,16 +79,18 @@ header {
     background-image: url(photos/pexels-quintin-gellar-631037.jpg);
     background-position: 0% 48%;
     background-size: cover;
+    color: #f9faf8;
+    text-shadow: 0px 0px 2px #000000;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
 }
 
 .quotee,
 .sign-up-title {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -205,9 +207,8 @@ nav {
 .quote-box {
     max-width: 46%;
     margin: auto;
-    padding-block: 6.25rem;
-    /* padding-top: 22rem;
-    padding-bottom: 5rem; */
+    padding-top: 20rem;
+    padding-bottom: 7rem;
 }
 
 .sign-up-box {
