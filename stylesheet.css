@@ -160,7 +160,7 @@ nav {
 .info-section {
     display: flex;
     flex-direction: column;
-    max-width: 46%;
+    max-width: 58%;
     margin: auto;
     margin-bottom: 6.25rem;
 }
@@ -172,17 +172,17 @@ nav {
 .info-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 43px;
+    gap: 10px;
 }
 
 .info-small {
-    width: 250px;
-    height: 250px;
+    max-width: 350px;
+    max-height: 300px;
 }
 
 .info-large {
-    width: 500px;
-    height: 250px;
+    max-width: 700px;
+    max-height: 300px;
 }
 
 .info-img {
@@ -197,7 +197,7 @@ nav {
 }
 
 .info-img.second {
-    object-position: 0px -30px;
+    object-position: 0px -90px;
 }
 
 .quote-box {
